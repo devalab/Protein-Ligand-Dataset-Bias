@@ -1,0 +1,94 @@
+==========================================
+SLURM_JOB_ID = 450289
+SLURM_NODELIST = gnode65
+SLURM_JOB_GPUS = 2
+==========================================
+starting
+reading pdbs...
+calculating distance matrix...
+no of targets 68
+distance matrix finished
+dumping finished
+Number of targets: 68
+randomization finished
+Cluster groups finished
+66 clusters created
+Cluster 0: AAK148
+Cluster 1: AAK127
+Cluster 2: AAK132
+Cluster 3: AAK122
+Cluster 4: AAK131
+Cluster 5: AAK145
+Cluster 6: AAK130
+Cluster 7: AAK160
+Cluster 8: AAK155
+Cluster 9: AAK162
+Cluster 10: AAK128
+Cluster 11: AAK141
+Cluster 12: AAK167
+Cluster 13: AAK158
+Cluster 14: AAK152
+Cluster 15: AAK140
+Cluster 16: AAK14
+Cluster 17: AAK151
+Cluster 18: AAK126
+Cluster 19: AAK12
+Cluster 20: AAK166
+Cluster 21: AAK111
+Cluster 22: AAK13
+Cluster 23: AAK142
+Cluster 24: AAK110
+Cluster 25: AAK134
+Cluster 26: AAK161
+Cluster 27: AAK143
+Cluster 28: AAK154
+Cluster 29: AAK153 AAK157
+Cluster 30: AAK17
+Cluster 31: AAK114
+Cluster 32: AAK133
+Cluster 33: AAK163
+Cluster 34: AAK129
+Cluster 35: AAK149
+Cluster 36: AAK135
+Cluster 37: AAK118
+Cluster 38: AAK10
+Cluster 39: AAK115
+Cluster 40: AAK15
+Cluster 41: AAK116
+Cluster 42: AAK120
+Cluster 43: AAK165
+Cluster 44: AAK18
+Cluster 45: AAK113
+Cluster 46: AAK125
+Cluster 47: AAK137
+Cluster 48: AAK117
+Cluster 49: AAK156 AAK136
+Cluster 50: AAK146
+Cluster 51: AAK159
+Cluster 52: AAK139
+Cluster 53: AAK138
+Cluster 54: AAK11
+Cluster 55: AAK112
+Cluster 56: AAK124
+Cluster 57: AAK16
+Cluster 58: AAK123
+Cluster 59: AAK150
+Cluster 60: AAK121
+Cluster 61: AAK119
+Cluster 62: AAK19
+Cluster 63: AAK164
+Cluster 64: AAK147
+Cluster 65: AAK144
+Max cluster size: 2
+Poses per fold: [23, 23, 22]
+folds created
+23 targets in fold 0
+23 targets in fold 1
+22 targets in fold 2
+Making .types files
+going for check
+Checking OUTPUT_seed0 train/test folds for 100.000% similarity
+AAK148 and AAK132 are the most similar targets in different folds (100.000%)
+python3 MY_CLUSTERING.py --pdbfiles pdb_files -i INPUT -o OUTPUT_seed0 -c OUTPUT_seed0 -n 3 -s 1 -s2 0 -l 0.9 --randomize 0 -v
+ 
+finished
