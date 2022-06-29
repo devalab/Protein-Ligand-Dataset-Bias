@@ -1,0 +1,6 @@
+==========================================
+SLURM_JOB_ID = 698091
+SLURM_NODELIST = gnode072
+SLURM_JOB_GPUS = 1,2
+==========================================
+slurmstepd: error: *** JOB 698091 ON gnode072 CANCELLED AT 2022-06-19T00:03:37 DUE TO TIME LIMIT ***
